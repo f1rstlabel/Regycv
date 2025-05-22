@@ -1,0 +1,86 @@
+<link href='cv.css' rel='stylesheet' type='text/css'>
+<!-- AOS CSS -->
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- MAIN CONTAINER -->
+		<div id="main_container">
+      <!-- HEADER -->
+      <div id="header">
+        <!-- LOGOTYPE/NAME -->
+        <div class="header_logotype_container">
+          <h1 class="logotype_name">Regy <span class="purple">Kurnia</span></h1>
+          <br>
+          <h2 class="logotype_occupation">NETWORK ENGINEERING</h2>
+        </div>
+        <!-- MAIN MENU -->
+        <div class="header_menu_container">
+          <ul class="download_print_buttons horizontal_list">
+          </ul>
+          <div class="clear"></div>
+          <ul class="header_menu horizontal_list">
+            <li><a class="no_border purple" href="cv.html">Profile</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="awards.html">Awards</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- LEFT COL -->
+     
+      <!-- PROFILE CONTENT -->
+      <div class="block" data-aos="fade-up">
+  <h1>Education</h1>
+  <div class="education_item" data-aos="fade-right" data-aos-delay="100">
+    <h2>Universitas SIBER ASIA </h2>
+    <p>Teknik informatika <br>2024 - Sekarang</p>
+  </div>
+       <div class="education_item" data-aos="fade-right" data-aos-delay="100">
+    <h2>SMK Negeri 1 Cimahi </h2>
+    <p>Sistem informatika Jaringan dan Aplikasi<br>2018 - 2022</p>
+  </div>
+  <div class="education_item" data-aos="fade-right" data-aos-delay="200">
+    <h2>MtsN Sukasari Cimahi</h2>
+    <p>2015 - 2018</p>
+  </div>
+  <div class="education_item" data-aos="fade-right" data-aos-delay="200">
+    <h2>SDN Utama Mandiri 1 Cimahi</h2>
+    <p>2009 - 2015</p>
+  </div>
+</div>
+<center><div id="footer">
+        <p class="footer_name">Regy Kurnia CV 2025</p>
+      </div>
+		</div></center>
+
+
+<div class="block" data-aos="fade-up">
+  <h2>Education Progress</h2>
+  <canvas id="eduChart" width="400" height="200"></canvas>
+</div>
+
+<script>
+  const ctx = document.getElementById('eduChart').getContext('2d');
+  const eduChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['SMK', 'S1', 'Sertifikasi'],
+      datasets: [{
+        label: 'Progres (%)',
+        data: [100, 25, 60],
+        backgroundColor: ['#5ce2af', '#5ce2af', '#5ce2af'],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+</script>
