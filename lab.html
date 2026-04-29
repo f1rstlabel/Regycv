@@ -30,3 +30,202 @@
             </ul>
         </div>
     </div>
+    <!-- LEFT COL -->
+
+    <!-- PROFILE CONTENT -->
+    <div class="education_item" data-aos="fade-right" data-aos-delay="100"
+        style="margin-bottom: 60px; border-left: 2px solid #00ff00; padding-left: 25px;">
+        <h2 style="color: #00ff00; font-size: 1.8em;">Enterprise Inventory Management System</h2>
+        <h3 style="color: #fff; letter-spacing: 1px;">Full-stack Web Application Development</h3>
+        <p style="color: #00ff00; font-weight: bold;">2024</p>
+
+        <p
+            style="color: #ccc; line-height: 1.8; text-align: justify; margin-bottom: 40px; border-bottom: 1px solid #333; padding-bottom: 20px;">
+            Pengembangan sistem informasi manajemen inventori berbasis web yang dirancang untuk mengelola siklus hidup
+            aset perusahaan secara digital. Aplikasi ini dibangun menggunakan arsitektur <b>MVC
+                (Model-View-Controller)</b> guna memastikan struktur kode yang rapi, modular, dan mudah untuk
+            dikembangkan di masa depan.
+        </p>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">1. Modul Manajemen Aset (Core
+                Data)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Sebagai pusat database untuk mengelola seluruh data barang (inventaris).
+                Modul ini mencatat detail spesifikasi barang, kategori, hingga nilai aset.
+                <br><i style="color: #888;">Implementasi: Memungkinkan admin untuk melakukan operasi CRUD (Create, Read,
+                    Update, Delete) pada ribuan data aset secara terpusat dan efisien.</i>
+            </p>
+            <img src="asset.jpeg" alt="Daftar Assets"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px; box-shadow: 0 0 10px rgba(0,255,0,0.1);">
+        </div>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">2. Sistem Transaksi Peminjaman
+                (Workflow)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Mengatur alur peminjaman barang antar departemen atau user. Sistem secara
+                otomatis memantau ketersediaan stok barang saat proses peminjaman dilakukan.
+                <br><i style="color: #888;">Implementasi: Mengurangi risiko hilangnya aset dengan mencatat siapa, kapan,
+                    dan barang apa yang dipinjam secara real-time.</i>
+            </p>
+            <img src="pinjam.jpeg" alt="Daftar Pinjam"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">3. Audit Kondisi & Stock Opname
+                (Quality Control)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Fitur verifikasi kondisi fisik barang. Modul ini memungkinkan perubahan
+                status barang secara dinamis (contoh: dari kondisi "OK" menjadi "Rusak") setelah proses pengembalian.
+                <br><i style="color: #888;">Implementasi: Menjamin akurasi laporan inventaris bulanan dan memudahkan
+                    proses perencanaan pengadaan barang baru.</i>
+            </p>
+            <img src="stok.jpeg" alt="Stock Opname"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px;">
+        </div>
+
+        <div style="margin-top: 20px; padding: 15px; background: rgba(0, 255, 0, 0.05); border: 1px dashed #00ff00;">
+            <p style="color: #fff; margin: 0;"><strong>Tech Stack:</strong> CodeIgniter 3 (PHP), MySQL, Bootstrap CSS,
+                JavaScript.</p>
+        </div>
+    </div>
+    <div class="education_item" data-aos="fade-right" data-aos-delay="200"
+        style="margin-bottom: 60px; border-left: 2px solid #00ff00; padding-left: 25px;">
+        <h2 style="color: #00ff00; font-size: 1.8em;">Advanced DevOps & Cloud Infrastructure Engineering</h2>
+        <h3 style="color: #fff; letter-spacing: 1px;">Sistem Otomatisasi & Orkestrasi End-to-End</h3>
+        <p style="color: #00ff00; font-weight: bold;">2025 - 2026</p>
+
+        <p
+            style="color: #ccc; line-height: 1.8; text-align: justify; margin-bottom: 40px; border-bottom: 1px solid #333; padding-bottom: 20px;">
+            Proyek ini merupakan perancangan infrastruktur berbasis <i>Cloud-Native</i> yang mengelola seluruh siklus
+            hidup aplikasi secara otomatis. Implementasi ini bertujuan untuk menciptakan ekosistem server yang memiliki
+            ketahanan tinggi (High Availability), pemantauan terpusat, dan pemulihan data yang instan jika terjadi
+            kegagalan sistem.
+        </p>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">1. Orkestrasi Kontainer
+                (Kubernetes / K3s)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Sebagai pusat kendali (orchestrator) yang menjalankan seluruh layanan
+                aplikasi. Kubernetes bertanggung jawab mengelola <i>Pods</i> dan <i>ReplicaSets</i>. Jika aplikasi
+                mengalami crash, Kubernetes akan melakukan <b>Self-Healing</b> dengan menjalankan ulang kontainer secara
+                otomatis tanpa campur tangan manusia.
+                <br><i style="color: #888;">Implementasi: Digunakan untuk menjaga uptime aplikasi Inventory agar selalu
+                    dapat diakses 24/7.</i>
+            </p>
+            <img src="kube.jpeg" alt="Kubernetes Dashboard"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px; box-shadow: 0 0 10px rgba(0,255,0,0.1);">
+        </div>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">2. Pipeline Otomatisasi (GitHub
+                Actions & Argo CD)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Menghilangkan proses update manual. <b>GitHub Actions</b> berfungsi
+                melakukan build otomatis saat saya melakukan <i>push</i> kode. Kemudian, <b>Argo CD</b> menerapkan
+                metodologi <b>GitOps</b>, di mana ia akan mensinkronisasi kondisi cluster Kubernetes agar selalu sama
+                dengan repositori di GitHub.
+                <br><i style="color: #888;">Implementasi: Mempercepat proses deployment fitur baru pada website tanpa
+                    menyebabkan downtime.</i>
+            </p>
+            <img src="github action.jpeg" alt="GitHub Action"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px; margin-bottom: 40px;">
+            <br>
+            <img src="argocd.jpeg" alt="Argo CD Sync"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">3. Real-Time Infrastructure
+                Monitoring (Prometheus & Grafana)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Bertindak sebagai "panel instrumen" server. <b>Prometheus</b> mengumpulkan
+                data metrik (penggunaan CPU, RAM, Suhu, dan Jaringan), sementara <b>Grafana</b> mengubah data tersebut
+                menjadi dashboard visual yang informatif.
+                <br><i style="color: #888;">Implementasi: Memantau beban kerja server Ubuntu saat menjalankan beban
+                    aplikasi yang berat agar performa tetap terjaga.</i>
+            </p>
+            <img src="grafana.jpeg" alt="Grafana Metrics"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">4. Centralized Logging (ELK
+                Stack / Kibana)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Sebagai "kotak hitam" atau pusat pencatatan aktivitas. Setiap error pada
+                aplikasi atau aktivitas user akan dikirim ke <b>Elasticsearch</b> dan ditampilkan secara rapi di
+                <b>Kibana</b>.
+                <br><i style="color: #888;">Implementasi: Memudahkan pelacakan penyebab error (debugging) pada backend
+                    Laravel/CI3 tanpa harus membuka log di terminal secara manual.</i>
+            </p>
+            <img src="elk.jpeg" alt="Kibana Log Search"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 45px;">
+            <h4 style="color: #00ff00; margin-bottom: 10px; text-transform: uppercase;">5. Disaster Recovery (Velero &
+                MinIO)</h4>
+            <p style="color: #eee; line-height: 1.6; margin-bottom: 15px;">
+                <b>Fungsi dalam Proyek:</b> Penjamin keamanan data tingkat tinggi. <b>Velero</b> melakukan snapshot
+                seluruh cluster dan database, lalu menyimpannya ke <b>MinIO</b> yang berfungsi sebagai penyimpanan objek
+                berbasis S3.
+                <br><i style="color: #888;">Implementasi: Melindungi data skripsi dari kerusakan permanen. Jika cluster
+                    rusak, seluruh sistem bisa dikembalikan (restore) dalam hitungan menit.</i>
+            </p>
+            <img src="minio.jpeg" alt="Velero Backup"
+                style="max-width: 90%; height: auto; border: 1px solid #00ff00; border-radius: 4px;">
+        </div>
+        <div
+            style="margin-top: 30px; margin-bottom: 30px; padding: 20px; border: 1px dashed #00ff00; border-radius: 8px; background: rgba(0, 255, 0, 0.02);">
+            <h4
+                style="color: #00ff00; margin-bottom: 15px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 2px;">
+                Technical Stack & Tools</h4>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+                <div style="flex: 1; min-width: 200px;">
+                    <p style="color: #fff; font-weight: bold; margin-bottom: 8px; font-size: 0.85em;">Cloud &
+                        Orchestration</p>
+                    <ul style="color: #ccc; list-style: none; padding: 0; font-size: 0.8em; line-height: 1.8;">
+                        <li></span> Kubernetes (K3s)</li>
+                        <li></span> Docker & Docker Compose</li>
+                        <li></span> Ubuntu Server (Linux)</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 200px;">
+                    <p style="color: #fff; font-weight: bold; margin-bottom: 8px; font-size: 0.85em;">Automation & CI/CD
+                    </p>
+                    <ul style="color: #ccc; list-style: none; padding: 0; font-size: 0.8em; line-height: 1.8;">
+                        <li></span> GitHub Actions (CI)</li>
+                        <li></span> Argo CD (GitOps)</li>
+                        <li></span> Container Registry (Docker Hub)</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 200px;">
+                    <p style="color: #fff; font-weight: bold; margin-bottom: 8px; font-size: 0.85em;">Monitoring &
+                        Logging</p>
+                    <ul style="color: #ccc; list-style: none; padding: 0; font-size: 0.8em; line-height: 1.8;">
+                        <li></span> Prometheus & Node Exporter</li>
+                        <li></span> Grafana (Visualization)</li>
+                        <li></span> ELK Stack (Kibana, Elasticsearch)</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 200px;">
+                    <p style="color: #fff; font-weight: bold; margin-bottom: 8px; font-size: 0.85em;">Storage & Backup
+                    </p>
+                    <ul style="color: #ccc; list-style: none; padding: 0; font-size: 0.8em; line-height: 1.8;">
+                        <li></span> Velero (Disaster Recovery)</li>
+                        <li></span> MinIO (S3 Object Storage)</li>
+                        <li></span> Longhorn / Local Path Provisioner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </center>
